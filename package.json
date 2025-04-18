@@ -1,7 +1,7 @@
 {
-    "name": "reactjs-vite-tailwind-vercel",
+    "name": "net-ai",
     "version": "1.0.0",
-    "description": "ReactJS app with Vite, Tailwind",
+    "description": "AI-powered business and investment planner",
     "type": "module",
     "scripts": {
         "dev": "vite",
@@ -10,9 +10,20 @@
         "start": "vite --host"
     },
     "dependencies": {
+        "@headlessui/react": "^1.7.18",
         "@sentry/browser": "^8.41.0",
+        "@supabase/auth-ui-react": "^0.4.7",
+        "@supabase/auth-ui-shared": "^0.1.8",
+        "@zapt/zapt-js": "^1.0.23",
+        "chart.js": "^4.4.1",
+        "drizzle-orm": "^0.33.0",
+        "openai": "^4.24.0",
+        "postgres": "^3.4.5",
         "react": "^18.2.0",
-        "react-dom": "^18.2.0"
+        "react-chartjs-2": "^5.2.0",
+        "react-dom": "^18.2.0",
+        "react-icons": "^4.11.0",
+        "react-router-dom": "^6.20.0"
     },
     "devDependencies": {
         "@vitejs/plugin-react": "^4.3.4",
@@ -20,6 +31,7 @@
         "postcss": "^8.4.47",
         "tailwindcss": "^3.4.13",
         "vite": "^5.4.7",
-        "@sentry/vite-plugin": "^2.23.0"
+        "@sentry/vite-plugin": "^2.23.0",
+        "@sentry/node": "^8.54.0"
     }
 }
